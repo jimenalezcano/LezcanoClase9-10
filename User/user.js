@@ -11,6 +11,8 @@
 
 // var pago = document.getElementById("validationCustomPago").value;
 
+
+//Creo variable Nuevo Usuario para agregar un nuevo usuario utilizando el molde User
 var nuevoUsuario = new User(
   "Jimena",
   "Lezcano",
@@ -22,9 +24,11 @@ var nuevoUsuario = new User(
   "Credito"
 
 );
+//Creo funcion para aplicar los datos del nuevo Usuario
    AplicarDatosUserDom(nuevoUsuario )
 
 
+//Mediante un array y un for each agrego los datos del usuario al formulario
 const AplicarDatosUserDom = (user) => {
   var etiquetasDom = [
     "nombre",
